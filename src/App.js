@@ -29,7 +29,7 @@ const toolsDB = {
     }
   ],
 
-  Websites: [
+  LearnCSS2: [
     {
       name: "Grid Garden ",
       description:
@@ -63,7 +63,7 @@ const toolsDB = {
     }
   ],
 
-  Extensions: [
+  LearnCSS3: [
     {
       name: "Flexbox Zombies ",
       description:
@@ -91,7 +91,7 @@ const toolsDB = {
 };
 
 export default function App() {
-  const [selectedGenre, setGenre] = useState("Extensions");
+  const [selectedGenre, setGenre] = useState("LearnCSS3");
   function genreClickHandler(genre) {
     setGenre(genre);
   }
